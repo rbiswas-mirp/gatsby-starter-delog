@@ -17,7 +17,7 @@ const ContactPage = ({
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
           <h1 className="post-title">Submit a confession</h1>
-          <p>Use this form to submit a confession &rarr;</p>
+          <p>Use this form to submit a confession (Don't worry, name and email will be kept confidential. For more details, please visit the privacy policy page) &rarr;</p>
         </div>
         <div>
           <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
