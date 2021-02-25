@@ -18,7 +18,7 @@ const ContactPage = ({
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
           <h1 className="post-title">Submit a confession</h1>
           <p>Don't worry, your name and email will be kept confidential. I need this info for combating spam submissions</p>
-          <p>!<a href="https://forms.gle/2aoV2GiorwGECfxq6">CLICK HERE</a>! To submit a confession anonymously</p>
+          <p>!<a href="https://forms.gle/2aoV2GiorwGECfxq6" style="color: ##FFFFFF">CLICK HERE</a>! To submit a confession anonymously</p>
         </div>
         <div>
           <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
