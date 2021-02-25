@@ -21,19 +21,7 @@ const ContactPage = ({
           <p>To submit a confession anonymously, CLICK <a href="https://forms.gle/2aoV2GiorwGECfxq6">HERE</a></p>
         </div>
         <div>
-          <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
-            <div>
-              <label htmlFor="w3lName">Name</label>
-              <input type="text" name="w3lName" id="w3lName"/>
-            </div>
-            <div>
-              <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender"/>
-            </div>
-            <div>
-              <label htmlFor="w3lSubject">Subject</label>
-              <input type="text" name="w3lSubject" id="w3lSubject"/>
-            </div>
+          <form className="form-container" action="https://formspree.io/f/xvovjojd" method="post">
             <div>
               <label htmlFor="w3lMessage">Message</label>
               <textarea name="w3lMessage" id="w3lMessage"></textarea>
