@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by a KIITian</p>
+        <p>&copy; {new Date().getFullYear()} KIIT Confessions &bull; Crafted with <span role="img" aria-label="love">❤️</span> by a KIITian</p>
       </footer>
     </div>
   )
