@@ -23,8 +23,8 @@ const ContactPage = ({
         <div>
           <form className="form-container" action="https://formspree.io/f/xvovjojd" method="post">
             <div>
-              <label htmlFor="w3lMessage">Message</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
+              <label htmlFor="Confession">Confession</label>
+              <textarea name="Confession" id="Confession"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
