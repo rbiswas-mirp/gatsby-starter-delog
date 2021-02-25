@@ -4,7 +4,7 @@ import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="/submit-confession/">Submit Confession</Link>
+    <Link to="/submit-confession/">Submit a Confession</Link>
     <ThemeChanger/>
   </nav>
   
