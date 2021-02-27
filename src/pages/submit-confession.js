@@ -19,7 +19,7 @@ const ContactPage = ({
           <h1 className="post-title">Submit a confession</h1>
         </div>
         <div>
-          <form className="form-container" data-netlify="true" method="post">
+          <form className="form-container" action="https://formspree.io/f/xvovjojd" method="post">
             <div>
               <textarea name="Confession" id="Confession" required></textarea>
             </div>
