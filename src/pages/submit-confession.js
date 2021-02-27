@@ -17,12 +17,10 @@ const ContactPage = ({
       <div>
         <div>
           <h1 className="post-title">Submit a confession</h1>
-          <p>Use the form to submit a confession anonymously</p>
         </div>
         <div>
           <form className="form-container" action="https://formspree.io/f/xvovjojd" method="post">
             <div>
-              <label htmlFor="Confession">Confession</label>
               <textarea name="Confession" id="Confession" required></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
