@@ -14,8 +14,8 @@ const ContactPage = ({
         <title>Submit a confession — {site.siteMetadata.title}</title>
         <meta name="description" content={"Submit a Confession " + site.siteMetadata.description} />
       </Helmet>
-      <div className="two-grids -contact">
-        <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
+      <div>
+        <div>
           <h1 className="post-title">Submit a confession</h1>
           <p>Use the form to submit a confession anonymously</p>
         </div>
