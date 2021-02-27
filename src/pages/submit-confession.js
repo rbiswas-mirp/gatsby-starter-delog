@@ -16,7 +16,7 @@ const ContactPage = ({
       </Helmet>
       <div>
         <div>
-          <h1 className="post-title" style="text-align:center;">Submit a confession</h1>
+          <h1 className="post-title">Submit a confession</h1>
         </div>
         <div>
           <form className="form-container" action="https://formspree.io/f/xvovjojd" method="post">
